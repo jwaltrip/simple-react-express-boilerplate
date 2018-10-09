@@ -1,0 +1,14 @@
+ul {
+  padding: 0;
+  width: 30%;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+
+  border-bottom: 1px dotted #777;
+  font-size: 1.3rem;
+  height: 1.3rem;
+}
