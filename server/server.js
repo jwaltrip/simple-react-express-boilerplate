@@ -7,7 +7,7 @@ app.get('/api/customers', (req, res) => {
   // this data will usually come from mongoDB
   const customers = [
     {id: 1, firstName: 'Jake', lastName: 'Waltrip'},
-    {id: 2, firstName: 'Laurie', lastName: 'Hansson'},
+    {id: 2, firstName: 'Mary', lastName: 'Smith'},
     {id: 3, firstName: 'John', lastName: 'Doe'}
   ];
 
