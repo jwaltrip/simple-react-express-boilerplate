@@ -8,10 +8,10 @@ It does not have MongoDB integration or any DB integration at the moment. This i
 ## Quick Start
 
 ``` bash
-# Install dependencies for server
+# Install dependencies for server (Express dependencies)
 npm install
 
-# Install dependencies for client
+# Install dependencies for client (React dependencies)
 npm run client-install
 
 # Run the client & server with concurrently
