@@ -14,7 +14,7 @@ class Customers extends Component {
     fetch('/api/customers')
       .then(res => res.json())
       .then(customers => {
-        this.setState({ customers: customers });
+        this.setState({ customers });
       });
   }
 

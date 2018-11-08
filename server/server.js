@@ -1,4 +1,5 @@
 const express = require('express');
+const database = require('./db');
 
 const app = express();
 
@@ -13,6 +14,10 @@ app.get('/api/customers', (req, res) => {
 
   res.json(customers);
 });
+
+app.get('/data', (req, res)=> {
+  res.send(database);
+})
 
 const port = 5000;
 
